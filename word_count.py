@@ -133,11 +133,10 @@ def create_marker(output_directory):
         
         f.write("")
 
-
-
 #
 # Escriba la función job, la cual orquesta las funciones anteriores.
 #
+
 def job(input_directory:str, output_directory:str):
 
     seq = load_input(input_directory)
